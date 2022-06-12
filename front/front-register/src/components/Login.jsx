@@ -1,10 +1,10 @@
 import React from 'react';
 import  '../assets/css/Login.css';
-import {Apiurl} from '../services/apirest';
+
 import axios from 'axios';
 
 
-let url =Apiurl+ 'api/users/'
+let url ='http://localhost:8080/api/signup/'
 class Login extends React.Component{
 
   state ={
@@ -28,7 +28,7 @@ manejadorChange  = async e=>{
       
     }
   })
-  console.log("change"+this.state.form)
+  console.log("change"+this.state.form.id)
   }
   
 
@@ -38,7 +38,7 @@ manejadorChange  = async e=>{
 
   manejadorBoton=()=>{
     console.log("url:"+url+"1")
-    console.log("datos:"+this.state.form.email)
+    console.log("datos:"+this.state.form)
     axios.get(url,this.state.form)
     
     .then (response=>{

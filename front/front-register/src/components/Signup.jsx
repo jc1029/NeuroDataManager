@@ -4,7 +4,7 @@ import  '../assets/css/Login.css';
 import axios from 'axios';
 
 
-let url =" http://localhost:8080/api/signup"
+let url =" http://localhost:8080/api/signup/"
 class Signup extends React.Component{
 
   state ={
@@ -38,7 +38,7 @@ manejadorChange  = async e=>{
 
   manejadorBoton=()=>{
     console.log("url:"+url)
-    console.log("datos:"+this.state.form.email)
+    console.log("datos:"+this.state.form)
     axios.post(url,this.state.form)
     
     .then (response=>{
