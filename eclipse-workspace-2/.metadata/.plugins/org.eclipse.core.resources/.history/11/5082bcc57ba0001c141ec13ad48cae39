@@ -1,5 +1,0 @@
-package com.democonsola.service;
-
-public interface iPersonaService {
-
-}

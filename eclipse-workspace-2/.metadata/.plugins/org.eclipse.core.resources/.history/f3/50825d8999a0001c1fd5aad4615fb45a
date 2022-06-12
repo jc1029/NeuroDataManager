@@ -1,6 +1,0 @@
-package com.democonsola.service;
-
-public interface iPersonaService {
-	void registrar(String nombre);
-
-}

@@ -1,6 +1,0 @@
-package com.democonsola.repository;
-
-public interface iPersona {
-void registrar(String nombre);
-
-}
