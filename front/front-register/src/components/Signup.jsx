@@ -4,7 +4,7 @@ import  '../assets/css/Login.css';
 import axios from 'axios';
 
 
-let url =" http://localhost:8080/api/signup/"
+let url =" http://localhost:8080/api/signup"
 class Signup extends React.Component{
 
   state ={
