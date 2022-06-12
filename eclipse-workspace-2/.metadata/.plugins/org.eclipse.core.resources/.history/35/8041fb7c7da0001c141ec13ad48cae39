@@ -1,0 +1,11 @@
+package com.democonsola.service;
+
+public class personaServiceImplement implements iPersonaService{
+//private IPersonaRepository repo;
+	@Override
+	public void registrar(String nombre) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

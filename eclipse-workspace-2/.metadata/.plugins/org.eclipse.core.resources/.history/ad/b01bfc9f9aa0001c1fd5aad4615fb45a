@@ -1,0 +1,26 @@
+package com.democonsola.repository;
+
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.DemoConsolaApplication;
+
+
+@Repository
+public class PersonaRepositoryImplement implements IPersonaRepository{
+	
+	private Logger LOG =LoggerFactory.getLogger(DemoConsolaApplication.class);
+
+		@Override
+	public void registrar(String nombre) {
+		// TODO Auto-generated method stub
+		LOG.info("se registro a"+nombre);
+		
+	}
+
+	
+}

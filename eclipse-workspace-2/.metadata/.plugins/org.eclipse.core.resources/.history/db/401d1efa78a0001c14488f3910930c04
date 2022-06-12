@@ -1,0 +1,5 @@
+package com.democonsola.repository;
+
+public class porsonaRepoImplemen implements iPersona{
+	LOG.info("Se registro a ". nombre);
+}

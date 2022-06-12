@@ -1,0 +1,28 @@
+package com.democonsola.service;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import com.democonsola.repository.IPersonaRepository;
+import com.democonsola.repository.PersonaRepositoryImplement;
+import com.example.demo.DemoConsolaApplication;
+
+@SuppressWarnings("unused")
+
+@Service
+public class personaServiceImplement implements iPersonaService{
+
+	@Autowired
+	private IPersonaRepository repo;
+
+@Override
+public void registrar(String nombre) {
+	// TODO Auto-generated method stub
+		//repo= new PersonaRepositoryImplement();
+		repo.registrar(nombre);
+}
+
+}

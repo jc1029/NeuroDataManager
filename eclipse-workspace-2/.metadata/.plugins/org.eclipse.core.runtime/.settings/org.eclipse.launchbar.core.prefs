@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Main,org.eclipse.launchbar.core.descriptorType.default\:ASTFrame,org.eclipse.launchbar.core.descriptorType.default\:plincipal,org.eclipse.launchbar.core.descriptorType.default\:base02,org.eclipse.launchbar.core.descriptorType.default\:devtools-client[base02],org.eclipse.launchbar.core.descriptorType.default\:base02 - Base02Application
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:proyecto001-1\ -\ Proyecto0011Application/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:proyecto001-1\ -\ Proyecto0011Application/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

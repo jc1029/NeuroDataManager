@@ -1,0 +1,11 @@
+package com.democonsola.repository;
+
+public class PersonaRepositoryImplement implements iPersona{
+
+	@Override
+	public void registrar() {
+		// TODO Auto-generated method stub
+		
+	}
+	LOG.info("Se registro a ". nombre);
+}

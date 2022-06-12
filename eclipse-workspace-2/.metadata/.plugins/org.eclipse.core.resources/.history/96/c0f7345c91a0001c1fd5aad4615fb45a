@@ -1,0 +1,16 @@
+package com.democonsola.service;
+
+import com.democonsola.repository.IPersonaRepository;
+import com.democonsola.repository.PersonaRepositoryImplement;
+
+public class personaServiceImplement implements iPersonaService{
+private IPersonaRepository repo;
+
+@Override
+public void registrar(String nombre) {
+	// TODO Auto-generated method stub
+		repo= new PersonaRepositoryImplement();
+		repo.registrar(nombre);
+}
+
+}
